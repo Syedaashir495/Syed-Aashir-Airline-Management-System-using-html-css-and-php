@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN OPTIONS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Century Gothic, sans-serif;
+        }
+        body {
+            background-color: black;
+        }
+        .main {
+            position: sticky;
+            top: 0;
+            background-color: black;
+            z-index: 1000;
+            padding: 10px 0;
+        }
+        .main ul {
+            list-style-type: none;
+            text-align: right;
+            margin-right: 20px;
+        }
+        .main ul li {
+            display: inline-block;
+        }
+        .main ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border: 1px solid #fff;
+            transition: 0.6s ease;
+        }
+        .main ul li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        .main ul li.active a {
+            background-color: #fff;
+            color: #000;
+        }
+        .cont {
+            background-color: rgb(255, 255, 255);
+            margin: 20% auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        .title h1 {
+            color: #000;
+            font-size: 36px;
+        }
+        .choices {
+            margin-top: 20px;
+        }
+        .choices a {
+            display: inline-block;
+            margin: 10px 20px;
+            padding: 10px 30px;
+            border: 1px solid #000;
+            color: #000;
+            text-decoration: none;
+            transition: 0.6s ease;
+        }
+        .choices a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li><a href="#">Air Ticket Booking System</a></li>
+            <li class="active"><a href="#">Home</a></li>
+        </ul>
+    </div>
+    <div class="cont">
+        <div class="title">
+            <h1>LOGIN OPTIONS</h1>
+        </div>
+        <div class="choices">
+            <a href="adminlogin.php" class="a">Admin Login</a>
+            <a href="passengerchoice.html" class="b">Customer Login</a>
+        </div>
+    </div>
+</body>
+</html>

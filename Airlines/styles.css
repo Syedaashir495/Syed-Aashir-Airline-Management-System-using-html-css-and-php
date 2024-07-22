@@ -1,0 +1,42 @@
+.cont{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30%;
+    border-radius: 10px;
+}
+.main {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the nav stays above other content */
+    background-color: #ffffff; /* Adjust to match your design */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow for better visibility */
+}
+
+.main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main ul li {
+    float: left;
+}
+
+.main ul li a {
+    display: block;
+    color: #000000; /* Adjust to match your design */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main ul li a:hover {
+    background-color: #ddd; /* Adjust to match your design */
+}
+
+.main ul li.active a {
+    background-color: #4CAF50; /* Adjust to match your design */
+    color: white; /* Adjust to match your design */
+}
